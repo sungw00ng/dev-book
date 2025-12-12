@@ -1,0 +1,11 @@
+name: "📖 읽기 계획"
+description: "읽을 책 계획 기록"
+labels: ["읽기 계획"]
+body:
+  - type: textarea
+    attributes:
+      label: 계획 / 메모
+      description: 읽고 싶은 책이나 목표, 생각 등을 자유롭게 기록
+      placeholder: 예) 이번 주에 읽을 책, 목표 페이지 수 등
+    validations:
+      required: true
