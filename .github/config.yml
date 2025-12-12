@@ -1,11 +1,1 @@
 blank_issues_enabled: false
-contact_links:
-  - name: PULL_REQUEST_TEMPLATE.md
-    url: https://github.com/sungw00ng/dev-book/blob/main/.github/ISSUE_TEMPLATE/PULL_REQUEST_TEMPLATE.md
-    about: PR템플릿
-  - name: bug_report.md
-    url: https://github.com/sungw00ng/dev-book/blob/main/.github/ISSUE_TEMPLATE/bug_report.md
-    about: 잘못된 내용 수정
-  - name: feature_request.md
-    url: https://github.com/sungw00ng/dev-book/blob/main/.github/ISSUE_TEMPLATE/feature_request.md
-    about: 기능 추가
