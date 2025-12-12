@@ -1,5 +1,5 @@
 name: "📖 독후감 기록"
-description: "읽은 챕터의 느낌 / 메모 기록
+description: "읽은 챕터의 느낌 / 메모 기록"
 body:
   - type: textarea
     attributes:
