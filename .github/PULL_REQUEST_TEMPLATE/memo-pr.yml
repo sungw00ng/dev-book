@@ -1,0 +1,10 @@
+name: "📖 독후감 기록"
+description: "읽은 챕터의 느낌 / 메모 기록"
+body:
+  - type: textarea
+    attributes:
+      label: 느낌 / 메모
+      description: 읽은 내용에서 느낀 점, 생각, 메모
+      placeholder: 자유롭게 적기
+    validations:
+      required: true
