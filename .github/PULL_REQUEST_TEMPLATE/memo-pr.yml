@@ -1,13 +1,29 @@
 name: "📖 독후감 기록"
-description: "읽은 챕터의 느낌 / 메모 기록"
 body:
-  - type: textarea
+  - type: input
     attributes:
-      label: 느낌 / 메모
-      description: 읽은 내용에서 느낀 점, 생각, 메모
-      placeholder: 자유롭게 적기
+      label: 책 이름
+      placeholder: 예) 해리포터 1
     validations:
       required: true
-  - type: hidden
+
+  - type: input
     attributes:
-      value: "Closes #TODO"
+      label: 챕터
+      placeholder: 예) 챕터 1
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 한줄평
+      placeholder: 읽은 챕터에 대한 한줄평
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 자동 이슈 닫기
+      placeholder: Closes #{}
+    validations:
+      required: true
